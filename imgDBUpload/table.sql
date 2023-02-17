@@ -1,0 +1,6 @@
+CREATE TABLE `tblimageload` (
+	`num` INT(10) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(50) NOT NULL,
+	`img` MEDIUMBLOB NOT NULL,
+	PRIMARY KEY (`num`)
+);
